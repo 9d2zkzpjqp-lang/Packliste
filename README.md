@@ -1,5 +1,5 @@
-# Packfolio 1.4.6
+# Packfolio 1.4.7
 
-Designkorrekturen: abgerundete fixierte Kategorieüberschriften und vollständig deckendes Kategorie-Suchfenster bei eingeblendeter iPhone-Tastatur.
+Gezielte Korrektur des Kategorie-Auswahlfensters bei geöffneter/geschlossener iPhone-Tastatur.
 
-Vor dem Update JSON-Datensicherung exportieren. GitHub Pages: index.html ersetzen.
+`index.html` auf GitHub Pages bereitstellen. Vor dem Austausch JSON-Sicherung exportieren.

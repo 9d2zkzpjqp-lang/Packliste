@@ -1,5 +1,5 @@
-# Packfolio 1.4.5
+# Packfolio 1.4.6
 
-Statische Web-App. `index.html` in das GitHub-Pages-Repository hochladen.
+Designkorrekturen: abgerundete fixierte Kategorieüberschriften und vollständig deckendes Kategorie-Suchfenster bei eingeblendeter iPhone-Tastatur.
 
-Änderungen: kompakter Kategorie-Dialog, tastaturangepasste Trefferliste, fixierte Kategorieüberschriften, dezente Reiseerfahrungen. Vor Update JSON-Backup exportieren.
+Vor dem Update JSON-Datensicherung exportieren. GitHub Pages: index.html ersetzen.

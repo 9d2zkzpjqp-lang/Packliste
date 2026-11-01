@@ -1,3 +1,5 @@
-# Packfolio 1.4.3
+# Packfolio 1.4.5
 
-Version 1.4.3. Die Versionsnummer ist in Einstellungen & Daten sichtbar.
+Statische Web-App. `index.html` in das GitHub-Pages-Repository hochladen.
+
+Änderungen: kompakter Kategorie-Dialog, tastaturangepasste Trefferliste, fixierte Kategorieüberschriften, dezente Reiseerfahrungen. Vor Update JSON-Backup exportieren.

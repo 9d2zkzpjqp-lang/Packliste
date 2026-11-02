@@ -1,5 +1,7 @@
-# Packfolio 1.4.7
+# Packfolio 1.4.8
 
-Gezielte Korrektur des Kategorie-Auswahlfensters bei geöffneter/geschlossener iPhone-Tastatur.
+Gezielter Fix für die Kategorie-Auswahl in iPhone Safari: Die dunkle Überlagerung deckt immer die komplette Seite ab, während das weiße Auswahlfenster bei eingeblendeter Tastatur oberhalb dieser positioniert wird. Nur die Trefferliste scrollt.
 
-`index.html` auf GitHub Pages bereitstellen. Vor dem Austausch JSON-Sicherung exportieren.
+Installation: `index.html` auf GitHub Pages ersetzen. Vorher in der App eine JSON-Sicherung exportieren.
+
+Test: Kategorie öffnen → Suchbegriff eingeben → Tastatur schließen → wieder öffnen → Treffer wählen. Das Verhalten auf einem echten iPhone muss noch geprüft werden.

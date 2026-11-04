@@ -1,15 +1,15 @@
-# Packfolio 1.6.3 – Darstellungsreparatur
+# Packfolio 1.6.4 – Kleine Verbesserungen
 
-- Kategorieüberschriften als stabile Karten ohne überlagernde Sticky-Positionierung.
-- Farblich deutlich unterscheidbare Standardkategorien.
-- Fortschrittsbalken innerhalb der Kategorieüberschrift.
-- Abhakkästchen rechts: komplette Kategorie packen oder zurücksetzen.
-- Einklapppfeil ganz rechts, getrennt vom Kästchen.
-- Farbpunkt in der Packliste entfernt; individuelle Farbverwaltung folgt mit „Meine Kategorien“.
-- Bestehende Mengensteuerung, Vorschläge, Lexikon und PDF-Funktion bleiben erhalten.
+- Kategorieüberschriften bleiben beim Scrollen sichtbar (Sticky auf gesamtem Header statt auf der Schaltfläche).
+- Reiseüberblick dezent hinterlegt: verbleibende Gegenstände, Packfortschritt und bei hinterlegtem Startdatum Countdown bis zur Abreise.
+- „Passende Ergänzungen“ dezenter hinterlegt.
+- Mengenbuttons, rechte Checkboxen, Kategorienfarben und Datenmodell unverändert.
+- Haptisches Feedback bewusst noch nicht implementiert (iPhone-Safari-Einschränkungen).
 
-## Installation
-Vor dem Update in Packfolio eine JSON-Datensicherung exportieren. Dann im GitHub-Repository die `index.html` durch die Datei aus diesem ZIP ersetzen. Die App speichert weiterhin lokal in Safari. Auf dem iPhone nach dem Update die Seite neu laden.
+## GitHub Pages
 
-## Prüfung
-JavaScript-Syntax geprüft. Das konkrete Scroll- und Zoomverhalten in iPhone-Safari muss noch praktisch geprüft werden.
+Vor dem Update die Daten als JSON exportieren. ZIP entpacken und die `index.html` im Repository-Stamm ersetzen. Keine weiteren Dateien notwendig.
+
+## Testhinweis
+
+Syntax und Paketstruktur geprüft; das tatsächliche Sticky-Verhalten muss auf iPhone Safari geprüft werden.

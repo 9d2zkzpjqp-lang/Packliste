@@ -1,11 +1,9 @@
-# Packfolio 1.6.7 – Gestaltung der passenden Ergänzungen
+# Packfolio 1.6.8
 
-Kleines CSS-Update auf Grundlage von 1.6.6.
+Kleines Designupdate auf Grundlage von 1.6.7:
+- Dialoge: kompakter quadratischer Schließen-Button mit X und barrierefreiem Namen.
+- Reise-Menü: kräftigere drei Punkte in derselben 44×44-px-Schaltfläche.
+- Einheitliche Rundung, Hintergrund, Kontur und Fokus-/Tippzustände.
+- Keine Änderungen an Packlistenlogik oder Datenformat.
 
-- Vorschlags-Chips ohne Link-Blau, mit dunklem Grün und harmonisierter Typografie.
-- Dezente neutrale Hintergrundfarbe und Rahmen für noch nicht hinzugefügte Gegenstände.
-- Bereits hinzugefügte Gegenstände bleiben sichtbar, mit Häkchen und sanftgrünem Hintergrund.
-- Antippen zum Hinzufügen bzw. Entfernen bleibt unverändert.
-- Keine Änderungen an Datenmodell, Speicherung, Kategorien oder Sticky-Überschriften.
-
-GitHub Pages: index.html im Repository-Hauptverzeichnis ersetzen. Vorher JSON-Sicherung exportieren.
+GitHub Pages: `index.html` im Repository durch die Datei im ZIP ersetzen. Vorher zur Sicherheit JSON-Daten exportieren.

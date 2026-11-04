@@ -1,31 +1,28 @@
-# Packfolio 1.5.6 – Qualitätsüberarbeitung
-
-Eine persönliche Packlisten-App für iPhone, iPad und Mac (GitHub Pages).
+# Packfolio 1.5.7 – Lexikon- und Camping-Update
 
 ## Installation
 
-Die `index.html` im Repository-Root ersetzen. GitHub Pages muss diesen Branch veröffentlichen. Danach die Seite neu öffnen, ggf. mit `?v=156`. **Vorher die bestehende Packfolio-Datensicherung als JSON exportieren.**
+1. **Zuerst JSON-Backup in Packfolio exportieren.**
+2. Die `index.html` aus diesem ZIP im GitHub-Pages-Repository ersetzen.
+3. Seite auf iPhone Safari öffnen, ggf. `?v=157` anhängen.
 
 ## Änderungen
 
-- Versionsanzeige in den Einstellungen auf **1.5.6** korrigiert.
-- Die neun persönlichen Vorlagen bleiben erhalten; 21 ausdrücklich abgewählte **exakte Bezeichnungen** werden aus künftigen Vorlagen entfernt.
-- Vereinbarte Bezeichnungen und Kategorien einschließlich **Schule & Klassenfahrt** und **Sportstützen (2)** ergänzt.
-- `Sonnencreme & Lippen` wird in zwei Gegenstände aufgeteilt; `Klassenliste + Stempel` bleibt ein gemeinsamer Eintrag.
-- Die Vorschläge lassen sich durch erneutes Antippen wieder entfernen. Auch bereits vorhandene Flip-Flops können so wieder abgewählt werden.
-- Die bisherige automatische Bestandsmigration beim Start wird nicht mehr ausgeführt: bestehende Reisen, Häkchen und Mengen werden durch das Update nicht automatisch geändert.
+- Neue Kategorie **Camping**: die neun bereits vereinbarten Gegenstände werden dorthin verschoben; 15 zusätzliche Campinggegenstände ergänzt. Allgemein verwendbare Artikel wie Müllbeutel bleiben im Lexikon nur einmal vorhanden.
+- Neue auswählbare Reiseeigenschaft **Camping**, analog zu „Ferienwohnung“: bietet 24 Campinggegenstände als passende Ergänzungen an, fügt nicht ungefragt alles hinzu.
+- Neun ausdrücklich abgewählte Begriffe aus neuen Vorschlägen entfernt: Tagungsunterlagen, Visitenkarten, Dienstreiseunterlagen, Namensschild, Rechnungen / Belege, Mautunterlagen, Parkscheibe, Stadtplan, Warnweste.
+- Reiseadapter / Umstecker und Reiseadapter (Steckdose) auf eine kanonische Bezeichnung zusammengeführt.
+- Schonende einmalige Kategoriekorrektur für bestehende Reisen (u. a. „Nachprüfung“, Rucksack und Campingausrüstung): **keine Änderung an Gegenstandsnamen, Mengen, Häkchen oder IDs**.
+- Versionsanzeige **1.5.7**.
 
-## Hinweise
+## Bewusst nicht Teil dieses Wartungsupdates
 
-- **Bestehende Reisen werden nicht automatisch umgeschrieben.** Deshalb können dort noch alte Kategorien wie „Nachprüfung“ oder historische Bezeichnungen stehen. Die neuen Kategorien gelten für neue Reisen.
-- „Entfernen“ meint die abgewählte **Bezeichnung in neuen Vorlagen/Vorschlägen**, nicht die Löschung alter Reisen oder sämtlicher ähnlicher Gegenstände.
-- Daten bleiben browserlokal gespeichert. Ein JSON-Export ist vor jeder Aktualisierung wichtig.
-- Die Tests auf iPhone Safari müssen nach dem Hochladen noch manuell durchgeführt werden.
+PDF-Drucklayout, Checklisten „Vor der Abreise“ und „Vor der Rückreise“ – diese sind für spätere Versionen geplant.
 
 ## Kurztest
 
-1. Neue Reise mit „Wochenendtrip“ erstellen.
-2. Prüfen, ob die Versionsanzeige 1.5.6 lautet.
-3. In „Passende Ergänzungen“ Flip-Flops hinzufügen und durch erneutes Antippen entfernen.
-4. Eine Schulreise erstellen und Kategorie „Schule & Klassenfahrt“ prüfen.
-5. Bestehende Reise mit Häkchen und Mengen kontrollieren; JSON-Export testen.
+1. Vorhandene Reise öffnen: Häkchen und Mengen unverändert, Kategorie „Nachprüfung“ für bekannte Einträge aufgelöst.
+2. Neue Reise: Eigenschaft „Camping“ auswählen und passende Vorschläge prüfen.
+3. Lexikon: Kategorie „Camping“ und alle 24 vorgesehenen Begriffe prüfen.
+4. Die neun gestrichenen Begriffe dürfen nicht in neuen Vorschlägen erscheinen.
+5. JSON-Export/Import und iPhone-Safari prüfen.

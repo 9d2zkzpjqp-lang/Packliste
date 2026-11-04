@@ -1,15 +1,16 @@
-# Packfolio 1.6.4 – Kleine Verbesserungen
+# Packfolio 1.6.5 – Kategorie-Illustrationen
 
-- Kategorieüberschriften bleiben beim Scrollen sichtbar (Sticky auf gesamtem Header statt auf der Schaltfläche).
-- Reiseüberblick dezent hinterlegt: verbleibende Gegenstände, Packfortschritt und bei hinterlegtem Startdatum Countdown bis zur Abreise.
-- „Passende Ergänzungen“ dezenter hinterlegt.
-- Mengenbuttons, rechte Checkboxen, Kategorienfarben und Datenmodell unverändert.
-- Haptisches Feedback bewusst noch nicht implementiert (iPhone-Safari-Einschränkungen).
+Basierend auf der bestehenden Version 1.6.4.
 
-## GitHub Pages
+- 13 bestehende Kategorien mit einheitlichen farbigen Illustrationen in der Kategorieüberschrift.
+- Keine neuen Kategorien, keine Änderungen an Reise- oder Packdaten, Mengenbuttons oder Abhakkästchen.
+- Illustrationen sind als transparente WebP-Bilder direkt in `index.html` eingebettet. Keine zusätzlichen Dateien oder Netzwerkaufrufe.
+- Die bisherigen Sticky-Überschriften und Farbschemata bleiben erhalten.
 
-Vor dem Update die Daten als JSON exportieren. ZIP entpacken und die `index.html` im Repository-Stamm ersetzen. Keine weiteren Dateien notwendig.
+## Veröffentlichung
 
-## Testhinweis
+1. In Packfolio die JSON-Sicherung exportieren.
+2. `index.html` aus diesem ZIP in GitHub im Repository `Packliste` ersetzen.
+3. GitHub-Pages-Veröffentlichung abwarten und Safari neu laden.
 
-Syntax und Paketstruktur geprüft; das tatsächliche Sticky-Verhalten muss auf iPhone Safari geprüft werden.
+Hinweis: Technisch geprüft, aber iPhone-Safari-Laufzeittest ist noch erforderlich.

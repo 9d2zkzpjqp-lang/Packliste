@@ -1,28 +1,29 @@
-# Packfolio 1.5.7 – Lexikon- und Camping-Update
+# Packfolio 1.6.0 – PDF-Druckfunktion
 
-## Installation
+## Neu
 
-1. **Zuerst JSON-Backup in Packfolio exportieren.**
-2. Die `index.html` aus diesem ZIP im GitHub-Pages-Repository ersetzen.
-3. Seite auf iPhone Safari öffnen, ggf. `?v=157` anhängen.
+- Die aktuelle Reise lässt sich über **Packliste → ⋯ → Packliste als PDF** als echte PDF-Datei herunterladen.
+- Wahlweise **drei Spalten** (kompakt) oder **zwei Spalten** (mehr Platz für längere Namen).
+- A4-Hochformat, Kategorien als eigene Abschnitte, automatische Seitenumbrüche und Fortsetzungsüberschriften.
+- Alle Gegenstände der aktuellen Reise werden ausgegeben, einschließlich bereits abgehakter Gegenstände. Die PDF-Kästchen sind entsprechend markiert.
+- Mengen werden als `(...x)` angegeben. Packfolio 1.5.7 kennt nur einen Abhakstatus pro Gegenstand, noch keinen gespeicherten Teilmengen-Fortschritt.
+- Das PDF wird ohne externe Bibliotheken direkt im Browser erzeugt. Es werden keine Reisedaten an einen Server übertragen.
 
-## Änderungen
+## GitHub-Installation
 
-- Neue Kategorie **Camping**: die neun bereits vereinbarten Gegenstände werden dorthin verschoben; 15 zusätzliche Campinggegenstände ergänzt. Allgemein verwendbare Artikel wie Müllbeutel bleiben im Lexikon nur einmal vorhanden.
-- Neue auswählbare Reiseeigenschaft **Camping**, analog zu „Ferienwohnung“: bietet 24 Campinggegenstände als passende Ergänzungen an, fügt nicht ungefragt alles hinzu.
-- Neun ausdrücklich abgewählte Begriffe aus neuen Vorschlägen entfernt: Tagungsunterlagen, Visitenkarten, Dienstreiseunterlagen, Namensschild, Rechnungen / Belege, Mautunterlagen, Parkscheibe, Stadtplan, Warnweste.
-- Reiseadapter / Umstecker und Reiseadapter (Steckdose) auf eine kanonische Bezeichnung zusammengeführt.
-- Schonende einmalige Kategoriekorrektur für bestehende Reisen (u. a. „Nachprüfung“, Rucksack und Campingausrüstung): **keine Änderung an Gegenstandsnamen, Mengen, Häkchen oder IDs**.
-- Versionsanzeige **1.5.7**.
+1. In Packfolio 1.5.7 vorher unter **Einstellungen & Daten** eine JSON-Sicherung exportieren.
+2. Die ZIP-Datei entpacken.
+3. `index.html` im eigenen Packfolio-Repository durch die neue Datei ersetzen; `README.md` optional ebenfalls hochladen.
+4. GitHub Pages nach dem Veröffentlichen mit `?v=160` neu öffnen.
 
-## Bewusst nicht Teil dieses Wartungsupdates
+## Technische Hinweise
 
-PDF-Drucklayout, Checklisten „Vor der Abreise“ und „Vor der Rückreise“ – diese sind für spätere Versionen geplant.
+Die PDF-Erzeugung verwendet A4-PDF-Seiten mit standardisierten Helvetica-Schriften und eingebetteten Vektor-Kästchen. Sonderzeichen außerhalb der WinAnsi-Zeichenbelegung werden im PDF vereinfacht. Eine vollständige Schrift-Einbettung für beliebige Unicode-Zeichen wäre ein möglicher späterer Ausbau.
 
-## Kurztest
+## Prüfstatus
 
-1. Vorhandene Reise öffnen: Häkchen und Mengen unverändert, Kategorie „Nachprüfung“ für bekannte Einträge aufgelöst.
-2. Neue Reise: Eigenschaft „Camping“ auswählen und passende Vorschläge prüfen.
-3. Lexikon: Kategorie „Camping“ und alle 24 vorgesehenen Begriffe prüfen.
-4. Die neun gestrichenen Begriffe dürfen nicht in neuen Vorschlägen erscheinen.
-5. JSON-Export/Import und iPhone-Safari prüfen.
+- JavaScript-Syntax geprüft.
+- PDF-Ausgabe für 2 und 3 Spalten mit 110 Testgegenständen erzeugt und mit `pdfinfo`/`pdftotext` überprüft.
+- PDF visuell als gerenderte A4-Seite kontrolliert.
+- **Noch nicht auf iPhone Safari getestet.** Bitte dort besonders das Öffnen/Sichern der PDF-Datei prüfen.
+- Die vorhandenen Reisen und der JSON-Speicher werden für die PDF-Erzeugung nicht verändert.

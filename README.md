@@ -1,16 +1,11 @@
-# Packfolio 1.6.5 – Kategorie-Illustrationen
+# Packfolio 1.6.6 — kleines Layout-Fix
 
-Basierend auf der bestehenden Version 1.6.4.
+Basis: Packfolio 1.6.5.
 
-- 13 bestehende Kategorien mit einheitlichen farbigen Illustrationen in der Kategorieüberschrift.
-- Keine neuen Kategorien, keine Änderungen an Reise- oder Packdaten, Mengenbuttons oder Abhakkästchen.
-- Illustrationen sind als transparente WebP-Bilder direkt in `index.html` eingebettet. Keine zusätzlichen Dateien oder Netzwerkaufrufe.
-- Die bisherigen Sticky-Überschriften und Farbschemata bleiben erhalten.
+- Kategorieillustrationen von 38 auf 29 px verkleinert (auf schmalen Displays 27 px).
+- Kategorieüberschrift mit stabiler zweispaltiger CSS-Grid-Zeile: Name links, Zähler rechts.
+- Lange Kategorienamen dürfen innerhalb ihrer Spalte umbrechen, ohne den Zähler unter die Überschrift zu schieben.
+- Fortschrittsbalken bleibt in einer eigenen Zeile innerhalb der Überschrift.
+- Keine Änderungen an Datenmodell, JavaScript-Logik, Sticky-Headern oder Packfunktionen.
 
-## Veröffentlichung
-
-1. In Packfolio die JSON-Sicherung exportieren.
-2. `index.html` aus diesem ZIP in GitHub im Repository `Packliste` ersetzen.
-3. GitHub-Pages-Veröffentlichung abwarten und Safari neu laden.
-
-Hinweis: Technisch geprüft, aber iPhone-Safari-Laufzeittest ist noch erforderlich.
+GitHub Pages: `index.html` aus dem ZIP ins Root des Repositories laden. Vorher JSON-Backup exportieren.

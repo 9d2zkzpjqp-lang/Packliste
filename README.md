@@ -1,1 +1,3 @@
-Packfolio 1.7.0 – Mein Lexikon. Vor der Aktualisierung JSON-Sicherung exportieren. index.html in GitHub Pages ersetzen. Bestehende Reisen bleiben unverändert.
+# Packfolio 1.7.1
+
+Die Datei index.html im GitHub-Repository ersetzen. Vorher JSON-Datensicherung exportieren.

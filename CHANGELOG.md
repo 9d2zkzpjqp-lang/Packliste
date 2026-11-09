@@ -1,4 +1,10 @@
-# 1.7.8
+# 1.7.9
+
+- Kategorieauswahl beim Anlegen neuer Gegenstände als kompaktes natives Dropdown statt großer Kacheln.
+- Vorauswahl aus der aktuellen Kategorie bleibt erhalten.
+- Keine Änderung an bestehenden Reisen oder gespeicherten Gegenständen.
+
+# 1.7.9
 
 - Einstellungen-Zahnräder auf das originale Lucide-Icon `settings` vereinheitlicht (Startseite und Packlistenmenü).
 - Keine Änderungen an Datenmodell oder Packlistenfunktionen.

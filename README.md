@@ -1,4 +1,4 @@
-# Packfolio 1.7.8
+# Packfolio 1.7.9
 
 Eigenständige Packlisten-App für Safari, bereitgestellt über GitHub Pages.
 
@@ -29,7 +29,7 @@ Eigenständige Packlisten-App für Safari, bereitgestellt über GitHub Pages.
 - Neue Gegenstände erhalten eine grafische Kategorieauswahl mit Farben und Illustrationen statt eines iOS-Texteingabefensters.
 - Zurück zur Suche ohne Verlust des Suchbegriffs.
 
-## Version 1.7.8
+## Version 1.7.9
 - Im Lexikon kann ein Gegenstand nach Sicherheitsabfrage endgültig gelöscht werden.
 - Bestehende Packlisten bleiben mit Mengen und Packstatus erhalten.
 - Gelöschte Standardgegenstände bleiben auch nach einem Neustart aus dem Lexikon ausgeblendet.

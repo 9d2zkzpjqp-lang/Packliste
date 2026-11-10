@@ -1,4 +1,11 @@
-# 1.8.0 – Vorlagen- und Kategorienverwaltung
+# 1.8.1
+
+- Vorlagenliste für iPhone kompakt neu angeordnet, Namen einzeilig gekürzt.
+- Duplizieren und Löschen in Drei-Punkte-Menü; echtes Lucide-Copy-Icon.
+- Tippen auf Gegenstandsnamen öffnet den Lexikoneditor; Name und Kategorie werden in der aktuellen Reise aktualisiert.
+- Vorhandene Mengen und Häkchen bleiben erhalten.
+
+# 1.8.1 – Vorlagen- und Kategorienverwaltung
 
 - Vorlagen: erstellen, umbenennen, Gegenstände und Mengen bearbeiten, duplizieren, löschen.
 - Kategorien: erstellen, umbenennen, Reihenfolge ändern, entfernen mit Zuordnung der Gegenstände.

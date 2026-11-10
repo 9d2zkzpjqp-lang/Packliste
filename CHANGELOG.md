@@ -1,3 +1,10 @@
+# 1.8.0 – Vorlagen- und Kategorienverwaltung
+
+- Vorlagen: erstellen, umbenennen, Gegenstände und Mengen bearbeiten, duplizieren, löschen.
+- Kategorien: erstellen, umbenennen, Reihenfolge ändern, entfernen mit Zuordnung der Gegenstände.
+- Verwaltung über Einstellungen & Daten; bestehende Reisen bei Vorlagenänderungen unverändert.
+- Weiterhin lokale Speicherung und JSON-Export/Import.
+
 # 1.7.9
 
 - Kategorieauswahl beim Anlegen neuer Gegenstände als kompaktes natives Dropdown statt großer Kacheln.

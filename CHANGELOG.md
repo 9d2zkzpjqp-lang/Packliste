@@ -1,3 +1,13 @@
+# 1.8.2 – Dialoge und Vorlagenkomfort
+
+- Vorlagen-Duplikate werden direkt nach dem Original eingefügt, mit Bestätigung per Toast.
+- Drei-Punkte-Menü in der Vorlagenliste bewahrt die Scrollposition.
+- Startseite: Wiederverwenden-Icon durch ein einheitliches SVG-Copy-Symbol ersetzt.
+- Eigene Eingabe- und Bestätigungsdialoge ersetzen Browser-Prompts und -Bestätigungen.
+- Kategorie entfernen: Zielkategorie über Dropdown wählen statt exakte Texteingabe.
+- Erfolgsmeldungen und Fehlerhinweise als nicht-blockierende Toasts.
+- Bestehende Datenstruktur und JSON-Export bleiben unverändert.
+
 # 1.8.1
 
 - Vorlagenliste für iPhone kompakt neu angeordnet, Namen einzeilig gekürzt.

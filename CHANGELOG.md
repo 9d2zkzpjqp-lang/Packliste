@@ -1,4 +1,11 @@
-# 1.8.2 – Dialoge und Vorlagenkomfort
+# Packfolio 1.8.3
+
+- Visueller Vorlageneditor mit Kategorien, Gegenständen, Mengen und bewusstem Speichern.
+- Kategorieerstellung und Gestaltung mit Symbolen, Farben, eigenem Bild und KI-Prompt.
+- Umfangreiche Dialoge auf iPhones als Vollbild; Hintergrundbedienung gesperrt.
+- Kategorienänderungen in gespeicherten Vorlagen berücksichtigt.
+
+# 1.8.3 – Dialoge und Vorlagenkomfort
 
 - Vorlagen-Duplikate werden direkt nach dem Original eingefügt, mit Bestätigung per Toast.
 - Drei-Punkte-Menü in der Vorlagenliste bewahrt die Scrollposition.
